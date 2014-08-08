@@ -31,10 +31,20 @@ namespace impl
 {
 void set_thread_signal_mask(::sigset_t* new_mask, ::sigset_t* old_mask)
 {
+    ::pthread_sigmask(SIG_SETMASK, new_mask, old_mask);
+}
+
+void add_thread_signal_mask(::sigset_t* new_mask, ::sigset_t* old_mask)
+{
     ::pthread_sigmask(SIG_BLOCK, new_mask, old_mask);
 }
 
 void set_process_signal_mask(::sigset_t* new_mask, ::sigset_t* old_mask)
+{
+    ::sigprocmask(SIG_SETMASK, new_mask, old_mask);
+}
+
+void add_process_signal_mask(::sigset_t* new_mask, ::sigset_t* old_mask)
 {
     ::sigprocmask(SIG_BLOCK, new_mask, old_mask);
 }
@@ -70,10 +80,10 @@ public:
         switch (scope)
         {
         case Scope::process:
-            set_process_signal_mask(&blocked_signals_mask, &old_signals_mask);
+            add_process_signal_mask(&blocked_signals_mask, &old_signals_mask);
             break;
         case Scope::thread:
-            set_thread_signal_mask(&blocked_signals_mask, &old_signals_mask);
+            add_thread_signal_mask(&blocked_signals_mask, &old_signals_mask);
             break;
         }
     }
