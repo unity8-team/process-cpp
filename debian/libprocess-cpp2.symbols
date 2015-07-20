@@ -9,21 +9,21 @@ libprocess-cpp.so.2 libprocess-cpp2 #MINVER#
  (c++)"core::posix::ChildProcess::wait_for(core::posix::wait::Flags const&)@Base" 0.0.1+14.04.20140311
  (c++)"core::posix::ChildProcess::~ChildProcess()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::this_process::cin()@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::get_or_throw(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::set_or_throw(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::unset_or_throw(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::get(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::set(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::error_code&)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::unset(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::error_code&)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::this_process::env::for_each(std::function<void (std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::get_or_throw(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::set_or_throw(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::unset_or_throw(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::set(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::error_code&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::unset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::error_code&)@Base" 1.0.0+14.04.20140326.2
+ (c++)"core::posix::this_process::env::for_each(std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::this_process::cerr()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::this_process::cout()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::this_process::parent()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::this_process::instance()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::trap_signals_for_process(std::initializer_list<core::posix::Signal>)@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::trap_signals_for_all_subsequent_threads(std::initializer_list<core::posix::Signal>)@Base" 1.0.0+14.04.20140326.2
- (c++)"core::posix::exec(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, core::posix::StandardStream const&)@Base" 0.0.1+14.04.20140311
- (c++)"core::posix::exec(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, core::posix::StandardStream const&, std::function<void ()> const&)@Base" 1.0.1+14.10.20140522
+ (c++)"core::posix::exec(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, core::posix::StandardStream const&)@Base" 0.0.1+14.04.20140311
+ (c++)"core::posix::exec(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, core::posix::StandardStream const&, std::function<void ()> const&)@Base" 1.0.1+14.10.20140522
  (c++)"core::posix::fork(std::function<core::posix::exit::Status ()> const&, core::posix::StandardStream const&)@Base" 0.0.1+14.04.20140311
  (c++)"core::posix::wait::operator|(core::posix::wait::Flags, core::posix::wait::Flags)@Base" 1.0.0+14.04.20140326.2
  (c++)"core::posix::linux::proc::process::OomScoreAdj::max_value()@Base" 1.0.0+14.04.20140326.2
@@ -48,7 +48,6 @@ libprocess-cpp.so.2 libprocess-cpp2 #MINVER#
  (c++|arch=amd64 arm64 ppc64el)"core::testing::CrossProcessSync::try_signal_ready_for(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)@Base" 0.0.1+14.04.20140311
  (c++|arch=!amd64 !arm64 !ppc64el)"core::testing::CrossProcessSync::wait_for_signal_ready_for(std::chrono::duration<long long, std::ratio<1ll, 1000ll> > const&)@Base" 0.0.1+14.04.20140311
  (c++|arch=amd64 arm64 ppc64el)"core::testing::CrossProcessSync::wait_for_signal_ready_for(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)@Base" 0.0.1+14.04.20140311
- (c++)"core::testing::CrossProcessSync::Error::Timeout::~Timeout()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::testing::CrossProcessSync::CrossProcessSync(core::testing::CrossProcessSync const&)@Base" 1.0.0+14.04.20140326.2
  (c++)"core::testing::CrossProcessSync::CrossProcessSync()@Base" 1.0.0+14.04.20140326.2
  (c++)"core::testing::CrossProcessSync::CrossProcessSync(core::testing::CrossProcessSync const&)@Base" 0.0.1+14.04.20140311
@@ -75,9 +74,7 @@ libprocess-cpp.so.2 libprocess-cpp2 #MINVER#
  (c++)"typeinfo name for core::posix::ProcessGroup@Base" 0.0.1+14.04.20140311
  (c++)"typeinfo name for core::posix::Process@Base" 1.0.0+14.04.20140326.2
  (c++)"typeinfo name for core::testing::CrossProcessSync::Error::Timeout@Base" 0.0.1+14.04.20140311
- (c++)"vtable for core::posix::SignalTrap@Base" 1.0.0+14.04.20140326.2
  (c++)"vtable for core::posix::Signalable@Base" 1.0.0+14.04.20140326.2
- (c++)"vtable for core::posix::ChildProcess::DeathObserver@Base" 0.0.1+14.04.20140311
  (c++)"vtable for core::posix::ChildProcess@Base" 1.0.0+14.04.20140326.2
  (c++)"vtable for core::posix::ProcessGroup@Base" 0.0.1+14.04.20140311
  (c++)"vtable for core::posix::Process@Base" 1.0.0+14.04.20140326.2
