@@ -6,7 +6,8 @@ process-cpp (3.0.1-0ubuntu1) wily; urgency=medium
 
 process-cpp (3.0.0) wily; urgency=medium
 
-  * Bump major revision and so name to account for toolchain update.
+  * Bump major revision and so name to account for toolchain update. Fixes LP:
+    #1452337.
 
  -- Thomas Voß <thomas.voss@canonical.com>  Mon, 20 Jul 2015 20:39:56 +0200
 
