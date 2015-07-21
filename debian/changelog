@@ -1,4 +1,4 @@
-process-cpp (3.0.0) UNRELEASED; urgency=medium
+process-cpp (3.0.0) wily; urgency=medium
 
   * Bump major revision and so name to account for toolchain update.
 
