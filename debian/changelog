@@ -1,3 +1,9 @@
+process-cpp (3.0.1+16.10.20160616-0ubuntu1) yakkety; urgency=medium
+
+  * Handle different soname versions for vivid
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 16 Jun 2016 16:01:43 +0000
+
 process-cpp (3.0.1-0ubuntu3) yakkety; urgency=medium
 
   * No-change rebuild for boost soname change.
