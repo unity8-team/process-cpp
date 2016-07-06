@@ -6,10 +6,6 @@ Build-Depends: cmake,
                doxygen,
                google-mock,
                graphviz,
-# We rely on C++11 features, and to prevent from ABI breaks
-# in libstdc++ causing us issues, we explicitly select a G++
-# version.
-               g++-4.9,
                libboost-dev,
                libboost-iostreams-dev,
                libboost-system-dev,
